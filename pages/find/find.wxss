@@ -1,19 +1,26 @@
-.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
+.item-avatar-xs image {
+    margin-right: 0.8rem;
 }
 
-.textStyle {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.item-avatar-sm-s {
+    padding-top: 0.3rem;
 }
 
-.textContainer {
-  margin-top: 200px;
+.graySpace {
+    background-color: white;
+    padding-left: 0.4rem;
+}
+
+page {
+    background-color: #eee;
+}
+
+.find-top {
+    min-height: 30rpx;
+}
+
+.find-bottom {
+    width: 100%;
+    height: 15px;
+    border-top: 1rpx solid #DDDDDD;
 }

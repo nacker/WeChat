@@ -1,5 +1,14 @@
-<view class="container">
-  <view class="textContainer">
-    <text class="textStyle">{{text}}</text>
-  </view>
+<view scrool-y="true" class="max-find">
+    <view wx:for="{{list}}" wx:for-item="item" wx:key='*this'>
+    <view class="find-top"> </view>
+        <view class="graySpace">
+            <view class="item-avatar-xs" wx:for="{{item.list_tool}}" wx:key='*this' wx:for-item="i" data-url="{{i.url}}" bindtap="goPage" >
+                <image src="{{i.img}}" />
+                <view class="item-avatar-sm-s">
+                    <text class="title">{{i.name}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="find-bottom"> </view>    
 </view>
