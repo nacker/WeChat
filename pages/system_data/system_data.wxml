@@ -1,0 +1,8 @@
+<view class="container">
+    <text class="textStyle">手机型号:{{systemInfo.model}} </text>
+    <text class="textStyle">设备像素比:{{systemInfo.pixelRatio}} </text>
+    <text class="textStyle">窗口宽度:{{systemInfo.windowWidth}} </text>
+    <text class="textStyle">窗口高度:{{systemInfo.windowHeight}} </text>
+    <text class="textStyle">微信设置的语言:{{systemInfo.language}} </text>
+    <text class="textStyle">微信版本号:{{systemInfo.version}} </text>
+</view>

@@ -1,19 +1,15 @@
-.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
+.item-avatar-xs image {
+    margin-right: 0.5rem;
 }
 
-.textStyle {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.flex-bottom {
+    margin-top: 0.4rem;
 }
 
-.textContainer {
-  margin-top: 200px;
+page {
+    background-color: #eee;
+}
+
+view {
+    background-color: white;
 }
