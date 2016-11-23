@@ -4,6 +4,14 @@
         "pages/notes/notes",
         "pages/find/find",
         "pages/me/me",
+
+        "pages/prcker/prcker",
+
+        "pages/upload/upload",
+
+        "pages/image/image",
+        "pages/audio/audio",
+        "pages/voice/voice",
         "pages/map/map",
         "pages/system_data/system_data",
 

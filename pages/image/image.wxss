@@ -1,0 +1,7 @@
+    /*设置图片样式*/
+    
+.section__ctn image {
+    width: 200px;
+    height: 200px;
+    background-color: #eeeeee;
+}

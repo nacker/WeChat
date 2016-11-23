@@ -1,0 +1,8 @@
+<scroll-view scroll-y="true" >
+    <view>
+        <image src="{{img_top}}"></image>
+        <button bindtap="upImg">上传</button>
+        <button bindtap="dwImg">下载</button>
+        <image src="{{img_bottom}}"></image>        
+    </view>
+</scroll-view>

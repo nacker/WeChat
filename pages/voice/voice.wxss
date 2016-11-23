@@ -1,0 +1,9 @@
+.viewStyle {
+    text-align: center;
+    width: 100%;
+    background-color: red;
+}
+
+.videoStyle {
+    width: 100%;
+}

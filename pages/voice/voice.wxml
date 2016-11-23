@@ -1,0 +1,9 @@
+<view class="viewStyle">
+    <video class="videoStyle" binderror="videoErrorCallback" src="{{src}}"></video>
+</view>
+<view class="section tc">
+    <!--<video src="{{src}}"></video>-->
+    <view>
+        <button bindtap="bindButtonTap" > 获取视频 </button>
+    </view>
+</view>
