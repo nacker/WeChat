@@ -1,5 +1,8 @@
 <view class="container">
-  <view class="textContainer">
-    <text class="textStyle">{{text}}</text>
-  </view>
+    <input type="text" bindinput="bindKeyInput" placeholder="请输入内容"/>
+    <button size="default" type="primary" bindtap="sendtap">发送</button >
+
+    <view wx:for="{{historyMsgList}}" wx:key="item">
+        <view>{{item}}</view>
+    </view>
 </view>

@@ -1,19 +1,7 @@
-.container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
+.item-avatar-sm image {
+    margin-right: 0.4rem;
 }
 
-.textStyle {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.textContainer {
-  margin-top: 200px;
+.note-top {
+    margin-top: 0.2rem;
 }
